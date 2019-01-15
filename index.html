@@ -12,6 +12,15 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/brands.css" integrity="sha384-1KLgFVb/gHrlDGLFPgMbeedi6tQBLcWvyNUN+YKXbD7ZFbjX6BLpMDf0PJ32XJfX" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous">
+		<!-- Test -->
+			<link rel="shortcut icon" href="Build1.0_Dofus/TemplateData/favicon.ico">
+			<link rel="stylesheet" href="Build1.0_Dofus/TemplateData/style.css">
+			<script src="Build1.0_Dofus/TemplateData/UnityProgress.js"></script>  
+		    <script src="Build1.0_Dofus/Build/UnityLoader.js"></script>
+		    <script>
+		      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build1.0_Dofus.json", {onProgress: UnityProgress});
+		    </script>
+		<!-- fin test -->
 	</head>
 	<body class="is-preload">
 
@@ -208,6 +217,18 @@
 
 							<a href="https://www.facebook.com/ProjetSpectres/"><img src=""></a>
 						</div>
+						<!-- Test ATtention -->
+						<div class="test">
+							<div class="webgl-content">
+						      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+						      <div class="footer">
+						        <div class="webgl-logo"></div>
+						        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+						        <div class="title">Dofus</div>
+						      </div>
+						    </div>
+						</div>
+						<!-- Fin Test -->
 					</section>
 
 				<!-- Contact -->
