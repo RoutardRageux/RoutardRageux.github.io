@@ -132,6 +132,7 @@ input, select, textarea {
 
 		h2.alt {
 			color: #888;
+			background-color: rgba(0,0,0,0.5);
 		}
 
 			h2.alt strong {
@@ -2234,7 +2235,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/banner_2.png");
 			}
 
 			#main > section.two {
